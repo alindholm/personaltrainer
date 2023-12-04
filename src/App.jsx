@@ -12,6 +12,7 @@ function App() {
         <Link to={"/"} className="tab-link">Home</Link>
         <Link to={"/customers"} className="tab-link">Customers</Link>
         <Link to={"/trainings"} className="tab-link">Trainings</Link>
+        <Link to={"/calendar"} className="tab-link">Calendar</Link>
 
       </nav>
       <Outlet />

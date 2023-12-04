@@ -6,6 +6,7 @@ import App from './App.jsx'
 import Customers from './components/Customers.jsx'
 import Home from './components/Home.jsx'
 import Trainings from './components/Trainings.jsx'
+import CalendarView from './components/CalendarView.jsx'
 //import './index.css'
 
 const router = createBrowserRouter([
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "trainings",
         element: <Trainings />
+      },
+      {
+        path: "calendar",
+        element: <CalendarView />
       }
     ]}
   ])
